@@ -193,6 +193,13 @@ a:hover {
     .nav-tabs .active {
         border-bottom: 2px solid #444;
     }
+    .navbar {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        max-width: 100%;
+        overflow: scroll;
+    }
 }
 
 /* Tab Content */
@@ -265,6 +272,7 @@ a:hover {
     /* Adjust for screens smaller than 768px */
     .work-header {
         grid-template-columns: 1fr;
+        text-align: center;
         /* Stacks items vertically */
     }
 }
