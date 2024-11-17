@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ssu Hsien Chung - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main-container">
+        <section id="info-card" class="info-card">
+            <div class="profile-card">
+                <img src="images/ssuhsien.png" alt="Ssu Hsien Chung" class="profile-pic">
+                <h2>Ssu Hsien Chung</h2>
+                <p>Software Engineer</p>
+                <div class="info-container">
+                    <ul class="info-list">
+                        <li style="text-align: start"><strong>Email:</strong> <a
+                                href="mailto:chungssuhsien@gmail.com">chungssuhsien@gmail.com</a>
+                        </li>
+                        <li><strong>Location: </strong>Taipei, Taiwan</li>
+                        <li><strong>Resume: </strong> <a href="resume.pdf" target="_blank">Download</a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <!-- Interests Section -->
+        <div class="changing-card">
+            <nav class="navbar">
+                <ul class="nav-tabs">
+                    <li class="tab active" data-tab="about">About</li>
+                    <li class="tab" data-tab="interests">Interest</li>
+                    <li class="tab" data-tab="works">Works</li>
+                    <li class="tab" data-tab="projects">Projects</li>
+                </ul>
+            </nav>
+            <section id="interests" class="interests tab-content">
+                <h2>What I'm Interested In</h2>
+                <!-- Frontend Development -->
+                <div class="interests-container">
+                    <div class="interest">
+                        <h3>Frontend Development</h3>
+                        <p>Building responsive user friendly interfaces using HTML, CSS, JavaScript, and modern
+                            frameworks
+                            like
+                            React or Vue.
+                        </p>
+                    </div>
+                    <div class="interest">
+                        <h3>Backend Development</h3>
+                        <p>Creating endpoints in the backend and test-driven development using end-to-end and unit
+                            tests.
+                        </p>
+                    </div>
+                    <div class="interest">
+                        <h3>Artificial Intelligence</h3>
+                        <p>
+                            Exploring AI through projects like Retrieval-Augmented Generation (RAG), leveraging web
+                            scraping, LangChain, and LLMs to build intelligent tools. I enjoy applying AI to solve
+                            real-world problems and enhance user experiences.
+                        </p>
+                    </div>
+                    <div class="interest">
+                        <h3>Algorithms and Problem Solving</h3>
+                        <p>
+                            I have a passion for tackling algorithmic challenges and improving my problem-solving
+                            skills. I
+                            enjoy exploring efficient solutions to complex computational problems and continuously
+                            enhancing
+                            my understanding of data structures and algorithms.
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <section id="about" class="about tab-content active">
+                <h2>About Me</h1>
+                    <p>
+                        Hi, I'm <strong>Ssu-Hsien Chung</strong>! I’m a front-end engineer at PChome with a Master’s
+                        degree
+                        in Computer Science from the University of Southern California (USC). My expertise lies in
+                        building
+                        high-performance web applications with <strong>React</strong> and <strong>Next.js</strong>.
+                    </p>
+                    <p>
+                        At PChome, I optimize e-commerce websites, enhance SEO visibility, and implement user tracking
+                        with
+                        Google Analytics 4 and server-side tracking techniques, achieving significant performance
+                        improvements.
+                    </p>
+                    <p>
+                        Previously, I interned at <strong>PChome</strong> and <strong>Sunbird Software</strong>, where I
+                        gained hands-on experience in front-end development, backend refactoring using aspect-oriented
+                        programming (AOP), and performance optimization. Notably, I improved a PChome project’s
+                        performance
+                        by 35%, reducing load times significantly.
+                    </p>
+                    <p>
+                        With a strong foundation in software engineering and a passion for creating scalable solutions,
+                        I’m
+                        excited about opportunities to collaborate and contribute to impactful projects. Feel free to
+                        reach
+                        out to discuss potential opportunities or my experience!
+                    </p>
+            </section>
+            <section id="works" class="works tab-content">
+                <h2>Work Experience</h2>
+
+                <!-- PChome Work Item -->
+                <div class="work-item">
+                    <div class="work-header">
+                        <div class="work-header-image">
+                            <img src="images/pchome.jpeg" alt="PChome Logo" class="work-logo">
+                        </div>
+                        <div class="work-header-companyname">
+                            <h3>PChome Online Inc.</h3>
+                        </div>
+                    </div>
+                    <!-- Front-End Engineer -->
+                    <div class="work-role">
+                        <p><strong>Role:</strong> Front-End Engineer</p>
+                        <p><strong>Duration:</strong> Full-Time | June 2024 - Present</p>
+                        <p>
+                            Developing high-performance e-commerce websites using
+                            <strong>React</strong> and <strong>Next.js</strong>. Collaborated with SEO and marketing
+                            teams, implemented Google Analytics 4, and optimized performance with SSR and lazy loading.
+                        </p>
+                    </div>
+                    <hr />
+                    <!-- Software Engineer Intern -->
+                    <div class="work-role">
+                        <p><strong>Role:</strong> Software Engineer Intern</p>
+                        <p><strong>Duration:</strong> Internship | Summer 2023</p>
+                        <p>
+                            Rebuilt an outdated project using <strong>Next.js</strong>, improving website performance by
+                            35%. Reduced FCP by 0.5s, LCP by 6.4s, and total blocking time by 640ms.
+                        </p>
+                    </div>
+                </div>
+                <div class="work-item">
+                    <div class="work-header">
+                        <div class="work-header-image">
+                            <img src="images/sunbird.jpeg" alt="Sunbird Software Logo" class="work-logo">
+                        </div>
+                        <div class="work-header-companyname">
+                            <h3>Sunbird Software</h3>
+                        </div>
+                    </div>
+                    <div class="work-role">
+                        <p><strong>Role:</strong> Software Engineer Intern</p>
+                        <p><strong>Duration:</strong> Internship | Summer 2021</p>
+                        <p>
+                            Refactored backend programs using aspect-oriented programming (AOP), reducing code
+                            duplication and enhancing readability. Wrote comprehensive test cases to validate
+                            implementation and ensured code quality and maintainability.
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <section id="projects" class="projects tab-content">
+                <h2>Projects</h2>
+
+                <!-- Yelp Business Search Project -->
+                <div class="project-item">
+                    <h3>Yelp Business Search</h3>
+                    <p><strong>Technologies:</strong> Angular, Bootstrap, Android Studio, Node.js, Express, Google Cloud
+                        Platform</p>
+                    <img src="images/business-search.png" alt="business-search" class="project-image">
+                    <p>
+                        Built a responsive web application to search Yelp business results based on user inputs and
+                        locations. Implemented geocoding, autocomplete, IP address lookup, and embedded maps for a
+                        better user experience.
+                    </p>
+                </div>
+
+                <!-- RAG (Retrieval-Augmented Generation) Project -->
+                <div class="project-item">
+                    <h3>Retrieval-Augmented Generation (RAG)</h3>
+                    <p><strong>Technologies:</strong> Python, LangChain, MongoDB, bs4</p>
+                    <img src="images/rag.png" alt="rag" class="project-image">
+                    <p>
+                        Built an AI assistant that uses real-time scraped data for Retrieval-Augmented Generation (RAG).
+                        Integrated web scraping with `bs4`, LangChain, and MongoDB to enhance response accuracy by using
+                        up-to-date information.
+                    </p>
+                </div>
+
+                <!-- Video Player with Scene Detection -->
+                <div class="project-item">
+                    <h3>Video Player with Scene Detection</h3>
+                    <p><strong>Technologies:</strong> Python, OpenCV, PyQt</p>
+                    <img src="images/scene-change.png" alt="scene-change" class="project-image">
+                    <p>
+                        Developed a video player that detects scene changes and allows navigation between scenes.
+                        Implemented functionalities like Play, Pause, Stop, and random access using OpenCV and PyQt.
+                    </p>
+                </div>
+                <div class="project-item">
+                    <h3>High Price 3C Store</h3>
+                    <p><strong>Technologies:</strong> React, Python (Django REST), MySQL</p>
+                    <img src="images/hp3c.jpeg" alt="hp3c" class="project-image">
+                    <p>
+                        Designed and implemented an e-commerce platform for high-value computer components.
+                        Developed features like user management, shopping cart, checkout, and inventory management.
+                        Built a database schema optimized for performance and normalization. Integrated a
+                        Vue.js-based
+                        frontend with Django REST APIs and ensured seamless user interaction through a
+                        well-structured
+                        database and backend logic.
+                    </p>
+                </div>
+
+                <!-- Little-Go AI -->
+                <div class="project-item">
+                    <h3>Little-Go AI Agent</h3>
+                    <p><strong>Technologies:</strong> Python, Reinforcement Learning</p>
+                    <p>
+                        Developed AI agents for a 5x5 Little-Go game using search, game playing, and reinforcement
+                        learning techniques. Ranked #2 out of 207 students in the class leaderboard.
+                    </p>
+                </div>
+
+                <!-- Student Performance Analysis System -->
+                <div class="project-item">
+                    <h3>Student Performance Analysis System</h3>
+                    <p><strong>Technologies:</strong> C++, Linux System Calls, TCP/UDP Sockets</p>
+                    <p>
+                        Designed a client-server application to analyze departmental data and GPAs. Supported up to 10
+                        simultaneous clients using multithreading with Linux system calls and reduced database lookup
+                        latency with efficient data structures.
+                    </p>
+                </div>
+
+            </section>
+
+
+        </div>
+    </div>
+
+    <!-- Header -->
+    <!-- <header class="header">
+        <h1>Ssu Hsien Chung</h1>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#resume">Resume</a>
+            <a href="#projects">Projects</a>
+        </nav>
+    </header> -->
+
+    <!-- About Section -->
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
