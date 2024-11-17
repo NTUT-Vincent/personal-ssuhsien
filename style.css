@@ -4,6 +4,7 @@ body {
     font-family: Arial, sans-serif;
     background-color: #121212;
     color: #ffffff;
+    max-width: 100%;
 }
 
 a {
@@ -111,6 +112,7 @@ a:hover {
 .main-container {
     display: grid;
     grid-template-columns: 1fr 3fr;
+    max-width: 100%;
 }
 
 @media (max-width: 768px) {
@@ -231,7 +233,7 @@ a:hover {
 @media (max-width: 768px) {
 
     /* Adjust for screens smaller than 768px */
-    .work-header{
+    .work-header {
         grid-template-columns: 1fr;
         /* Stacks items vertically */
     }
@@ -280,7 +282,7 @@ hr {
 @media (max-width: 768px) {
 
     /* Adjust for screens smaller than 768px */
-    .work-header-companyname{
+    .work-header-companyname {
         justify-content: center;
         margin-top: 20px;
         /* Stacks items vertically */
