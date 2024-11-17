@@ -271,7 +271,8 @@ a:hover {
 
     /* Adjust for screens smaller than 768px */
     .work-header {
-        grid-template-columns: 1fr;
+        display: flex;
+        flex-direction: column;
         text-align: center;
         /* Stacks items vertically */
     }
