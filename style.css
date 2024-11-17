@@ -107,6 +107,7 @@ a:hover {
 .info-container {
     display: flex;
     justify-content: center;
+    max-width: 100%;
 }
 
 .main-container {
@@ -135,6 +136,7 @@ a:hover {
     margin: 1rem;
     padding: 1rem;
     padding-top: 0px;
+    max-width: 100%;
 }
 
 .navbar {
