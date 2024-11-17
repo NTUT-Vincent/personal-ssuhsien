@@ -37,6 +37,17 @@ a:hover {
     text-align: center;
 }
 
+@media (max-width: 768px) {
+
+    /* Adjust for screens smaller than 768px */
+    .info-card {
+        display: flex;
+        justify-content: center;
+
+        /* Stacks items vertically */
+    }
+}
+
 .profile-card {
     max-width: 400px;
     margin: 2rem;
@@ -100,6 +111,15 @@ a:hover {
 .main-container {
     display: grid;
     grid-template-columns: 1fr 3fr;
+}
+
+@media (max-width: 768px) {
+
+    /* Adjust for screens smaller than 768px */
+    .main-container {
+        grid-template-columns: 1fr;
+        /* Stacks items vertically */
+    }
 }
 
 .changing-card {
@@ -170,6 +190,15 @@ a:hover {
     grid-template-columns: 1fr 1fr;
 }
 
+@media (max-width: 768px) {
+
+    /* Adjust for screens smaller than 768px */
+    .interests-container {
+        grid-template-columns: 1fr;
+        /* Stacks items vertically */
+    }
+}
+
 .work {
     padding: 2rem 1rem;
     max-width: 800px;
@@ -198,6 +227,17 @@ a:hover {
     margin-bottom: 20px;
     text-align: left;
 }
+
+@media (max-width: 768px) {
+
+    /* Adjust for screens smaller than 768px */
+    .work-header{
+        grid-template-columns: 1fr;
+        /* Stacks items vertically */
+    }
+}
+
+
 
 .work-header h3 {
     margin: 0;
@@ -235,6 +275,16 @@ hr {
     display: flex;
     justify-content: flex-start;
     align-items: center;
+}
+
+@media (max-width: 768px) {
+
+    /* Adjust for screens smaller than 768px */
+    .work-header-companyname{
+        justify-content: center;
+        margin-top: 20px;
+        /* Stacks items vertically */
+    }
 }
 
 .work-header-image {
