@@ -1,6 +1,6 @@
 /* General Styles */
 html {
-    font-size: 16px;
+    /* font-size: 16px; */
     /* Ensure a readable base font size */
 }
 
@@ -16,7 +16,7 @@ body {
 
 @media (max-width: 768px) {
     body {
-        font-size: 20px;
+        /* font-size: 20px; */
         /* Larger font size for mobile */
     }
 }
