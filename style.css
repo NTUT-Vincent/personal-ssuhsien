@@ -114,7 +114,7 @@ a:hover {
     margin: 0px;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     gap: 0.2rem;
     padding: 0px;
 }
@@ -374,4 +374,17 @@ hr {
     width: 100%;
     height: auto;
     margin-top: 10px;
+}
+
+.social-links-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding: 5px;
+    color: #fff;
+}
+
+.font-link {
+    color: white;
 }
