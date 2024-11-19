@@ -154,7 +154,7 @@ a:hover {
     display: flex;
     justify-content: flex-end;
     max-width: 100%;
-    overflow: scroll;
+    /* overflow: scroll; */
 }
 
 .nav-tabs {
@@ -400,5 +400,8 @@ hr {
     .changing-card {
         margin: 0;
         padding: 10px;
+    }
+    .navbar {
+        overflow: scroll;
     }
 }
