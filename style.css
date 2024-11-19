@@ -14,6 +14,20 @@ body {
     font-size: 1rem; */
 }
 
+body {
+    overflow: auto;
+    /* Or 'scroll' */
+    scrollbar-width: none;
+    /* Firefox */
+    -ms-overflow-style: none;
+    /* IE and Edge */
+}
+
+body::-webkit-scrollbar {
+    display: none;
+    /* Chrome, Safari, and Opera */
+}
+
 @media (max-width: 768px) {
     body {
         /* font-size: 20px; */
@@ -388,19 +402,24 @@ hr {
         padding: 0;
         width: 100%;
     }
+
     .project-item {
         padding: 1px;
     }
+
     .work-item {
         padding: 1px;
     }
+
     .interest {
         padding: 1px;
     }
+
     .changing-card {
         margin: 0;
         padding: 10px;
     }
+
     .navbar {
         overflow: scroll;
     }
