@@ -54,13 +54,10 @@ a:hover {
 }
 
 @media (max-width: 768px) {
-
-    /* Adjust for screens smaller than 768px */
     .info-card {
         display: flex;
         justify-content: center;
 
-        /* Stacks items vertically */
     }
 }
 
@@ -132,13 +129,9 @@ a:hover {
 }
 
 @media (max-width: 768px) {
-
-    /* Adjust for screens smaller than 768px */
     .main-container {
-        /* grid-template-columns: 1fr; */
         display: flex;
         flex-direction: column;
-        /* Stacks items vertically */
     }
 }
 
@@ -193,6 +186,7 @@ a:hover {
     .nav-tabs .active {
         border-bottom: 2px solid #444;
     }
+
     .navbar {
         text-align: center;
         display: flex;
@@ -231,10 +225,9 @@ a:hover {
 
 @media (max-width: 768px) {
 
-    /* Adjust for screens smaller than 768px */
     .interests-container {
-        grid-template-columns: 1fr;
-        /* Stacks items vertically */
+        display: flex;
+        flex-direction: column;
     }
 }
 
@@ -387,4 +380,25 @@ hr {
 
 .font-link {
     color: white;
+}
+
+@media (max-width: 768px) {
+
+    .tab-content {
+        padding: 0;
+        width: 100%;
+    }
+    .project-item {
+        padding: 1px;
+    }
+    .work-item {
+        padding: 1px;
+    }
+    .interest {
+        padding: 1px;
+    }
+    .changing-card {
+        margin: 0;
+        padding: 10px;
+    }
 }
