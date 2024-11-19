@@ -14,20 +14,6 @@ body {
     font-size: 1rem; */
 }
 
-body {
-    overflow: auto;
-    /* Or 'scroll' */
-    scrollbar-width: none;
-    /* Firefox */
-    -ms-overflow-style: none;
-    /* IE and Edge */
-}
-
-body::-webkit-scrollbar {
-    display: none;
-    /* Chrome, Safari, and Opera */
-}
-
 @media (max-width: 768px) {
     body {
         /* font-size: 20px; */
