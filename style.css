@@ -405,6 +405,9 @@ hr {
         overflow: scroll;
         /* Ensure scrolling works for small screens */
     }
+    .nav-tabs .tab {
+        padding: 1rem 1rem;
+    }
 }
 
 @media (min-width: 768px) {
