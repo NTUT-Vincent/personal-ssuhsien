@@ -396,23 +396,28 @@ hr {
     color: white;
 }
 
-@media (max-width: 768px) {
+/* General Navbar Scrollbar Style */
+.navbar {
+    overflow: auto;
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* IE and Edge */
+}
 
+.navbar::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, and Opera */
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
     .tab-content {
         padding: 0;
         width: 100%;
     }
 
-    .project-item {
-        padding: 1px;
-    }
-
-    .work-item {
-        padding: 1px;
-    }
-
+    .project-item,
+    .work-item,
     .interest {
-        padding: 1px;
+        padding: 5px; /* Slightly larger padding for readability */
     }
 
     .changing-card {
@@ -421,15 +426,10 @@ hr {
     }
 
     .navbar {
-        overflow: scroll;
+        overflow: auto; /* Ensure scrolling works for small screens */
     }
 }
-.navbar {
-    overflow: auto; /* Or 'scroll' */
-    scrollbar-width: none; /* For Firefox */
-    -ms-overflow-style: none; /* For Internet Explorer and Edge */
-}
 
-.navbar::-webkit-scrollbar {
-    display: none; /* For Chrome, Safari, and Opera */
+@media (min-width: 768px) {
+    /* Additional styles for larger screens can go here */
 }
