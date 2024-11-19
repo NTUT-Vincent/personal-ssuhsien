@@ -402,7 +402,7 @@ hr {
     }
 
     .navbar {
-        overflow: auto;
+        overflow: scroll;
         /* Ensure scrolling works for small screens */
     }
 }
