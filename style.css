@@ -246,6 +246,9 @@ a:hover {
     margin: 0 auto;
     text-align: left;
 }
+.about h2 {
+    text-align: center;
+}
 
 .interests-container {
     display: grid;
