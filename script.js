@@ -1,15 +1,5 @@
 // script.js
 
-// Highlight active section in navigation
-const navLinks = document.querySelectorAll('.header nav a');
-
-navLinks.forEach(link => {
-    link.addEventListener('click', () => {
-        navLinks.forEach(nav => nav.classList.remove('active'));
-        link.classList.add('active');
-    });
-});
-
 // Get all tabs and contents
 const tabs = document.querySelectorAll(".tab");
 const tabContents = document.querySelectorAll(".tab-content");
